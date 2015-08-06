@@ -1,0 +1,19 @@
+language: csharp
+mono:
+  - latest
+
+solution: MineLib.Windows.sln
+
+before_install:
+  - git submodule update --init --recursive
+  
+install:
+  - nuget restore MineLib.Windows.sln
+
+script:
+  - xbuild /p:Configuration=Release MineLib.Windows.sln
+  - xbuild /p:Configuration=Debug MineLib.Windows.sln
+
+notifications:
+  email:
+    on_success: always
