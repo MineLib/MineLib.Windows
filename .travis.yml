@@ -7,7 +7,6 @@ addons:
   apt:
     packages:
       - libmonogame-cil-dev
-      - monodevelop-monogame
 
 solution: MineLib.Windows.sln
 
