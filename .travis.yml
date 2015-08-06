@@ -5,6 +5,7 @@ mono:
 solution: MineLib.Windows.sln
 
 before_install:
+  - sudo apt-get install libmonogame-cil-dev monodevelop-monogame
   - git submodule update --init --recursive
   
 install:
