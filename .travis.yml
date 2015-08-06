@@ -1,11 +1,17 @@
 language: csharp
 mono:
   - latest
+  
+sudo: false
+addons:
+  apt:
+    packages:
+      - libmonogame-cil-dev
+      - monodevelop-monogame
 
 solution: MineLib.Windows.sln
 
 before_install:
-  - sudo apt-get install libmonogame-cil-dev monodevelop-monogame
   - git submodule update --init --recursive
   
 install:
