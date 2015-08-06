@@ -1,6 +1,12 @@
 language: csharp
 mono:
   - latest
+  
+sudo: false
+addons:
+  apt:
+    packages:
+      - libmonogame-cil-dev
 
 solution: MineLib.Windows.sln
 
