@@ -6,6 +6,7 @@
 	path = ProtocolModern
 	url = https://github.com/MineLib/ProtocolModern.git
 	branch = master
-[submodule "MineLib.PCL"]
-	path = MineLib.PCL
-	url = https://github.com/MineLib/MineLib.PCL.git
+[submodule "MineLib.PGL"]
+	path = MineLib.PGL
+	url = https://github.com/MineLib/MineLib.PGL.git
+	branch = master
