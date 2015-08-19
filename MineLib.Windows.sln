@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fNbt.Portable", "MineLib.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolModern", "ProtocolModern\ProtocolModern.csproj", "{CEBA6FFC-494A-43A2-8847-8EFA99D88605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.PCL", "MineLib.PCL\MineLib.PCL.csproj", "{5FB0D09E-5F52-46B6-B018-66381E4A02AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.PGL", "MineLib.PGL\MineLib.PGL.csproj", "{5FB0D09E-5F52-46B6-B018-66381E4A02AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
