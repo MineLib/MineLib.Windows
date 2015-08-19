@@ -116,6 +116,10 @@
       <Project>{5fb0d09e-5f52-46b6-b018-66381e4a02ae}</Project>
       <Name>MineLib.PGL</Name>
     </ProjectReference>
+    <ProjectReference Include="ProtocolModern\ProtocolModern.csproj">
+      <Project>{ceba6ffc-494a-43a2-8847-8efa99d88605}</Project>
+      <Name>ProtocolModern</Name>
+    </ProjectReference>
   </ItemGroup>
   <!-- Specify the search path explicitly so the ResolveAssemblyReferences task picks the right ones -->
   <Target Name="BeforeResolveReferences">
