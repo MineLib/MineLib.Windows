@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 using MineLib.Core.Wrappers;
 
-using MineLib.PCL.Graphics;
+using MineLib.PGL;
 
 using MineLib.Windows.WrapperInstances;
 
