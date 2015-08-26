@@ -13,27 +13,73 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Effects/Clear.fx
+#begin Effects/VertexPositionNormalTextureLight.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:Effects/Clear.fx
+/build:Effects/VertexPositionNormalTextureLight.fx
 
-#begin Effects/GBuffer.fx
+#begin Effects/VertexPositionNormalTextureTangentBinormalLight.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:Effects/GBuffer.fx
+/build:Effects/VertexPositionNormalTextureTangentBinormalLight.fx
 
-#begin Effects/GBuffer1.fx
+#begin Effects/VertexPositionTextureLight.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:Effects/GBuffer1.fx
+/build:Effects/VertexPositionTextureLight.fx
 
-#begin Effects/SolidBlockEffect.fx
+#begin Effects/AlbedoNormalDepth.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:Effects/SolidBlockEffect.fx
+/build:Effects/AlbedoNormalDepth.fx
+
+#begin Effects/AlbedoDepth.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/AlbedoDepth.fx
+
+#begin Models/PointLight.x
+/importer:OpenAssetImporter
+/processor:ModelProcessor
+/processorParam:ColorKeyColor=0,0,0,0
+/processorParam:ColorKeyEnabled=True
+/processorParam:DefaultEffect=BasicEffect
+/processorParam:GenerateMipmaps=True
+/processorParam:GenerateTangentFrames=False
+/processorParam:PremultiplyTextureAlpha=True
+/processorParam:PremultiplyVertexColors=True
+/processorParam:ResizeTexturesToPowerOfTwo=False
+/processorParam:RotationX=0
+/processorParam:RotationY=0
+/processorParam:RotationZ=0
+/processorParam:Scale=1
+/processorParam:SwapWindingOrder=False
+/processorParam:TextureFormat=DxtCompressed
+/build:Models/PointLight.x
+
+#begin Effects/PointLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/PointLight.fx
+
+#begin Effects/Combine.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/Combine.fx
+
+#begin Effects/SpotLight.fx
+/copy:Effects/SpotLight.fx
+
+#begin Effects/Deffered.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/Deffered.fx
 
