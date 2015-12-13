@@ -10,3 +10,6 @@
 	path = MineLib.PGL
 	url = https://github.com/MineLib/MineLib.PGL.git
 	branch = master
+[submodule "Aragas.Core"]
+	path = Aragas.Core
+	url = https://github.com/Aragas/Aragas.Core.git

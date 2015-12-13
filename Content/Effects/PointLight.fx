@@ -21,14 +21,6 @@ float farClip;
 float4x4 inverseViewProj;
 float4x4 inverseView;
 
-// Albedo texture
-texture colorMap; 
-
-// Normal texture
-texture normalMap;
-
-// Depth texture
-texture depthMap;
 
 // Cast shadows?
 bool CastShadows;
@@ -36,6 +28,8 @@ bool CastShadows;
 // Half of a pixel.
 float2 halfPixel;
 
+// Albedo texture
+texture colorMap;
 sampler colorSampler = sampler_state
  {
 	 Texture = (colorMap);
@@ -45,6 +39,9 @@ sampler colorSampler = sampler_state
 	 MinFilter = LINEAR;
 	 Mipfilter = LINEAR;
  };
+ 
+// Depth texture
+texture depthMap;
  sampler depthSampler = sampler_state
  {
 	 Texture = (depthMap);
@@ -54,6 +51,9 @@ sampler colorSampler = sampler_state
 	 MinFilter = POINT;
 	 Mipfilter = POINT;
  };
+ 
+// Normal texture
+texture normalMap;
  sampler normalSampler = sampler_state
  {
 	 Texture = (normalMap);

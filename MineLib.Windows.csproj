@@ -62,18 +62,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\terrain.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\terrain_nh.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\terrain_s.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Texture.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Fonts\PixelUnicode.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Texturepack.zip">
@@ -90,7 +87,7 @@
     <Compile Include="WrapperInstances\FileSystemWrapperInstance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WrapperInstances\InputWrapperInstance.cs" />
-    <Compile Include="WrapperInstances\NetworkTCPWrapperInstance.cs" />
+    <Compile Include="WrapperInstances\TCPClientWrapperInstance.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -105,6 +102,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Aragas.Core\Aragas.Core.csproj">
+      <Project>{468D9D51-DFE7-47A8-B0D6-52D035FC714D}</Project>
+      <Name>Aragas.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="MineLib.Core\MineLib.Core.csproj">
       <Project>{c6be1779-61e7-4c62-989a-9fa62acb2c78}</Project>
       <Name>MineLib.Core</Name>
@@ -158,6 +159,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Effects\Deffered.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Fonts\PixelUnicode.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
