@@ -6,3 +6,5 @@
 
 ![MainMenu](https://dl.dropboxusercontent.com/u/58476180/MineLib/MainMenu.png)
 ![InGame](https://dl.dropboxusercontent.com/u/58476180/MineLib/InGame.png)
+Btw, that's a 4 screen splitscreen! Also supported 2 screen splitscreen. Debug info is incorrect.
+![Deferred Light](http://im.ezgif.com/tmp/ezgif-3539661247.gif)
